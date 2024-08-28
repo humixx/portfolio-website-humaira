@@ -7,6 +7,7 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 import blockci from "@/public/blockci.jpeg"
 import arkan from "@/public/arkan.jpeg"
 import flask from "@/public/flask.png"
+import gym from "@/public/1.png"
 
 export const links = [
   {
@@ -91,6 +92,13 @@ export const projectsData = [
     link:'https://github.com/beginnerhumaira/quote-website'
   
   },
+  {
+    title:"FitLife Gym Center",
+    description:"A responsive web app designed for gym users and admin, has a calorie burn calculator and much more.",
+    tags:["css","React","Firebase","VanillajS","Node"],
+    imageUrl:gym,
+    link:'',
+  }
 ] as const;
 
 export const skillsData = [
