@@ -21,17 +21,17 @@ export default function About() {
       <p className="mb-3">
         After graduating with a degree in{" "}
         <span className="font-medium">Computer Science</span>, I decided to pursue my
-        passion for programming. Since I am a CS-grad so I am already familiar with Web dev yet to polish my skills,I enrolled in a coding bootcamp and learned{" "}
+        passion for programming more like "a solution provider🤭". Since I am a CS-grad so I am already familiar with Web dev yet to polish my skills,I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB/Firebase
+          React, Next.js, Node.js/Express.js, and MongoDB/Firebase/Django
         </span>
-        . I am also familiar with TypeScript at a beginner level. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        . I am also familiar with TypeScript. I am always looking to
+        learn new technologies cuz what's life without learning new stuff?<span className="italic">DUH</span>. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer aka Full stack Web Dev!
       </p>
@@ -39,9 +39,9 @@ export default function About() {
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy writing
        , watching documentaries, and exploring nature. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
+        <span className="font-medium">exploring new topics</span>. I am currently
         learning about{" "}
-        <span className="font-medium">Human behaviours!</span>. I'm into a lot of exercising and building up my stamina, Exercise for me is what people call "Leisure time:)".
+        <span className="font-medium">How Attitude Affects Our Daily Lives!</span>. I'm into a lot of exercising and building up my stamina, Exercise for me is what people call "Leisure time:)".
       </p>
     </motion.section>
   );

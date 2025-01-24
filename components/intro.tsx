@@ -64,9 +64,9 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Humaira Sajjad.</span> I'm a{" "}
         <span className="font-bold">GenZ full-stack developer</span> {" "}
-        <span className="font-bold">with a Passion</span> for developing solutions that create social impact. I enjoy
+        <span className="font-bold">with a Passion</span> for developing solutions that create social impact and go a long way to somewhat simplify lives. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React</span>.
+        <span className="underline">React Aka MERN</span>.
       </motion.h1>
 
       <motion.div
@@ -108,7 +108,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/beginnerhumaira"
+          href="https://github.com/humixx"
           target="_blank"
         >
           <FaGithubSquare />
