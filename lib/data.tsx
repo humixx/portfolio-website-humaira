@@ -65,28 +65,45 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Full-Stack Developer",
+    location: "Remote",
+    description:
+      "With 1.5 years of experience as a full-stack web developer, I have a proven track record of delivering impactful solutions and driving results. I excel at collaborating with teams to streamline processes, enhance user experiences, and implement efficient, scalable systems to support organizational goals. My ability to adapt and solve complex challenges makes me a reliable and valuable resource for any project.",
+    icon: React.createElement(FaReact),
+    date: "Nov 2024- Present ",
+  },
+  {
+    title: "Associate MERN Stack Developer",
+    location: "Islamabad",
+    description:
+      " Designed innovative applications utilizing cutting-edge technologies, such as NFC and AI, to simplify user experiences and provide personalized, data-driven solutions. Enhanced convenience and delivered impactful real-time analysis through strategic development.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Aug 2024 - Oct 2024",
+  },
+
+  {
     title: "BSCS",
     location: "Air University,Islamabad",
     description:
-      "I am a fresh grad from batch 20-24. I am looking a role as a full-stack web developer.",
+      "I graduated in June 2024, during which I honed my skills in full-stack web development by tackling diverse projects and mastering modern technologies.",
     icon: React.createElement(LuGraduationCap),
-    date: "2024",
+    date: "June 2024",
   },
   {
     title: "Project Management Intern ",
     location: "PITB (Pakistan Information & Technology Board)",
     description:
-      "I worked as a software developer and project manager intern for a startup.I streamlined project processes, reducing delivery timelines by 30% while maintaining high-quality standards..",
+      "I worked as a software developer and project manager intern for a startup.I streamlined project processes, reducing delivery timelines by 30% while maintaining high-quality standards.",
     icon: React.createElement(CgWorkAlt),
     date: " May 2023 - Sep 2023",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Jr. Software Develooper ",
     location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, and MongoDB/Firebase. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2023 - present",
+      "Worked as a junior software developer and freelancer, specializing in full-stack development. Proficient in React, Next.js, TypeScript, Tailwind, and MongoDB/Firebase.",
+      icon: React.createElement(CgWorkAlt),
+      date: "Since 2023",
   },
 ] as const;
 
