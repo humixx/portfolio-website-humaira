@@ -146,7 +146,7 @@ export const projectsData = [
   },
   {
     title: "BlockCi",
-    description:"BlockCi is a pioneering software solution aimed at fostering transparency and trust within charity organizations and donors, addressing a critical need in Pakistan's philanthropic landscape. This document delineates the comprehensive scope and challenges of the project, and the proposed solution set to be implemented. Central to the software's functionality is the ability to monitor the progress of various charity initiatives, facilitate secure transactions, and establish an immutable ledger of all financial activities.",
+    description:"BlockCi is a pioneering software solution aimed at fostering transparency and trust within charity organizations and donors, addressing a critical need in Pakistan's philanthropic landscape. This project delineates the comprehensive scope and challenges of the project, and the proposed solution set to be implemented. Central to the software's functionality is the ability to monitor the progress of various charity initiatives, facilitate secure transactions, and establish an immutable ledger of all financial activities.",
 
     tags: ["React", "UseState", "Firebase", "Scss", "Web3","Blockchain integration"],
     imageUrl:blockci,
