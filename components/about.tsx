@@ -30,10 +30,8 @@ export default function About() {
         <span className="font-medium">
           React, Next.js, Node.js/Express.js, and MongoDB/Firebase/Django
         </span>
-        . I am also familiar with TypeScript. I am always looking to
-        learn new technologies cuz what's life without learning new stuff?<span className="italic">DUH</span>. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer aka Full stack Web Dev!
+        . I am also familiar with TypeScript and have hands-on experience working with AI agents. I have tested top AI platforms such as CopilotKit and openHands, and have contributed to resolving errors and improving platform stability. I am always looking to
+        learn new technologies cuz what's life without learning new stuff?<span className="italic">DUH</span>. I am a developer who will be a valuable and impactful addition to your organization, so hit me up if you think I'm worth it!
       </p>
 
       <p>

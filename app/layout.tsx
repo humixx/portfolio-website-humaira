@@ -11,15 +11,18 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Humaira Sajjad | Personal Portfolio",
-  description: "Humaira is a fresh graduate with passion for full-stack development with 0-1 years of experience.",
+  description: "Humaira is a full-stack web developer with 2 years of experience and a passion for building modern, scalable applications.",
 };
+
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
+  
 }) {
   return (
+   
     <html lang="en" className="!scroll-smooth">
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}

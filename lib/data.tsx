@@ -10,6 +10,7 @@ import flask from "@/public/flask.png"
 import gym from "@/public/1.png"
 import zounds from "@/public/ZOUNDS.png"
 import pc from "@/public/POCKET CADDIE.png"
+import todoAgent from "@/public/todo-agent.png"
 import {
   SiHtml5,
   SiCss3,
@@ -68,7 +69,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Remote",
     description:
-      "With 1.5 years of experience as a full-stack web developer, I have a proven track record of delivering impactful solutions and driving results. I excel at collaborating with teams to streamline processes, enhance user experiences, and implement efficient, scalable systems to support organizational goals. My ability to adapt and solve complex challenges makes me a reliable and valuable resource for any project.",
+      "With 2+ years of experience as a full-stack web developer, I have a proven track record of delivering impactful solutions and driving results. I excel at collaborating with teams to streamline processes, enhance user experiences, and implement efficient, scalable systems to support organizational goals. My experience includes working with AI agents, testing top AI platforms such as CopilotKit and openHands, and actively contributing to resolving errors and improving platform stability. My ability to adapt and solve complex challenges makes me a reliable and valuable resource for any project.",
     icon: React.createElement(FaReact),
     date: "Nov 2024- Present ",
   },
@@ -201,7 +202,24 @@ export const projectsData = [
     tags:["css","HTML","JavaScript","PHP and MySQL","React ","PDO"],
     imageUrl:csd,
     link:'',
-  }
+  },
+  {
+    title: "Todo Agent",
+    description:
+      "A modern, AI-powered Todo application built with Next.js, React, and CopilotKit. Todo Agent helps you manage your daily tasks efficiently with a clean UI, smart features, and seamless performance. Features include task management (add, edit, complete, delete), AI assistance with smart suggestions and productivity tips, responsive UI with Radix UI and Tailwind CSS, persistent storage (local or backend), and smooth animations using Framer Motion.",
+    tags: [
+      "Next.js",
+      "React",
+      "CopilotKit",
+      "Radix UI",
+      "Tailwind CSS",
+      "Framer Motion",
+      "AI Agent",
+      "Task Management"
+    ],
+    imageUrl: todoAgent, // Replace with the actual image path
+    link: "https://todo-agent-drab.vercel.app/", // Replace with the actual app link
+  },
 
 ] as const;
 
@@ -233,6 +251,8 @@ export const skillsData = [
   { name: "Postman", icon: <SiPostman /> },
   { name: "GraphQL", icon: <SiGraphql /> },
   { name: "Docker", icon: <SiDocker /> },
-  
   { name: "Webpack", icon: <SiWebpack /> },
+  { name: "Jest", icon: <SiJavascript /> }, // Replace with SiJest if available
+  { name: "React Testing Library", icon: <SiReact /> }, // Replace with SiTestingLibrary if available
+  { name: "Playwright", icon: <SiJavascript /> }, // Replace with SiPlaywright if available
 ];
